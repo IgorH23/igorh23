@@ -1,16 +1,19 @@
-### Hi there 👋
+# Student ID Card Generator
 
-<!--
-**IgorH23/igorh23** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Este repositório contém um script simples em Python para gerar carteirinhas estudantis.
 
-Here are some ideas to get you started:
+## Uso
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+Gere uma carteirinha:
+
+```bash
+python student_id_generator.py --name "Maria Silva" --id "12345" --course "Engenharia" --logo caminho/para/logo.png
+```
+
+O logotipo é opcional. Se fornecido, será exibido no canto superior direito da carteirinha.
